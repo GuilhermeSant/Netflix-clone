@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{
+    background-image: url('../img/netflix-bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.534);
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: helvetica, sans-serif;
+    color: white;
+}
+
+#headerLogo{
+    width: 10%;
+    height: auto;
+    /* margin-top: -3%; */
+    padding-left: 1%;
+    fill: none;
+}
+
+#loginArea{
+    text-align: center;
+    margin-top: -2%;
+    background-color: rgba(0, 0, 0, 0.712);
+    display: inline-block;
+    margin-left: 35%;
+    border-radius: 4px;
+    height: 700px;
+    width: 30%;
+    border: 0;
+    padding: 15px;
+}
+
+#loginArea h3{
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 55px;
+    padding-left: 20px;
+}
+
+#InputHome{
+    
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-top: auto;
+    
+}
+
+#inputLogin{
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    height: 30px;
+    width: 300px;
+    margin-left: -100px;
+    line-height: 50px;
+    padding: 15px 20px 15px ;
+    font-size: large;
+    text-align: justify;
+}
+
+#enterLogin{
+    border-radius: 4px;
+    border: 0;
+    background-color: rgb(253, 0, 0);
+    height: 70px;
+    width: 345px;
+    margin-top: 20px;
+    margin-left: -100px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#helpLinks ul{
+    color: gray;
+    list-style: none;
+    padding:0px;
+    margin-left: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+
+#helpLinks ul li{
+
+    display: inline;
+    margin-left: 50px;
+    
+}
+
+#helpLinks ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+#novoLogin ul{
+    color: gray;
+    list-style: none;
+    padding:0px;
+    margin-left: 70px;
+    margin-top: 70px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+#novoLogin img{
+    width: 5%;
+    height: auto;
+}
+
+#novoLogin ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#infoCaptcha{
+    text-align: justify;
+    color: gray;
+    margin-left: 70px;
+    margin-right: 60px;
+    font-size: 13px;
+}
+
+#infoCaptcha a{
+    color: rgba(7, 107, 201, 0.884);
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 101%;
+    height: 105%;
+    margin-left: -10px;
+    margin-top: 80px;
+    color: gray;
+    padding: 1% 10% ;
+
+}
+
+footer p{
+    margin-left: 4%;
+    margin-bottom: 40px;
+}
+
+footer ul{
+
+    list-style: none;
+
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 2%;
+    padding-right: 40px;
+}
+
+footer a{
+    color: gray;
+    text-decoration: none;
+}
+
+#langSelector{
+    margin-left: 77px;
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: gray;
+    font-size: 15px;
+    background-image: url("../img/globo.png") ;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left;
+    padding: 2px 30px;
+}
