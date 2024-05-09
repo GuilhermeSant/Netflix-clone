@@ -1,1 +1,1 @@
-Site feito no curso de front replicando tela de login da Netflix
+Site feito no curso de front end replicando tela de login da Netflix
